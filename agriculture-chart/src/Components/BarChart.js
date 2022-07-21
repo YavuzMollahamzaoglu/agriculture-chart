@@ -1,5 +1,6 @@
 import React from "react";
 import { Bar } from "react-chartjs-2";
+import windLogo from "../images/windLogo.svg";
 
 const BarChart = () => {
   const state = {
@@ -7,8 +8,8 @@ const BarChart = () => {
     datasets: [
       {
         label: "Wind Speed Per Hour(KM)",
-        backgroundColor: "red",
-        borderColor: "blue",
+        backgroundColor: "green",
+        borderColor: "white",
         borderWidth: 3,
         data: [3, 5, 4, 7, 6],
       },
@@ -30,8 +31,9 @@ const BarChart = () => {
   };
 
   return (
-    <div>
+    <div style={{ width: "30%", height: "30%", display: "flex" }}>
       <Bar data={state} options={options} />
+      <img src={windLogo} alt="Wind Logo" style={{ width: 70 }} />
     </div>
   );
 };
