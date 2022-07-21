@@ -16,11 +16,11 @@ function App() {
       <p>Wind Speed at 15:00 pm is 7 km/h</p>
       <p>Wind Speed at 12:00 pm is 6 km/h</p>
       <LineChart />
-      <p>Water Level at 12:00 pm is 7 </p>
-      <p>Water Level at 13:00 pm is 6 km/h</p>
-      <p>Water Level at 14:00 pm is 8 km/h</p>
-      <p>Water Level at 15:00 pm is 6 km/h</p>
-      <p>Water Level at 12:00 pm is 10 km/h</p>
+      <p>Water Level at 12:00 pm is 7 meter</p>
+      <p>Water Level at 13:00 pm is 6 meter</p>
+      <p>Water Level at 14:00 pm is 8 meter</p>
+      <p>Water Level at 15:00 pm is 6 meter</p>
+      <p>Water Level at 12:00 pm is 10 meter</p>
     </div>
   );
 }
